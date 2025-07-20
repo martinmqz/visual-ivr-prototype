@@ -1,0 +1,15 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --padding-btns: .5rem 1rem;
+  --padding-block: .5rem .75rem;
+  --padding-btn-phonepad: .5rem 1rem;
+  --bg-opacity: 1;
+  --text-opacity: 1;
+  --radius-btn-round: 9999px;
+  --radius-btn-squared: .375rem;
+  --radius-block: .5rem;
+
+}
