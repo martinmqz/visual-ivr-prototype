@@ -133,7 +133,7 @@ function App() {
 
   return (
     <div className='app'>
-       <p><a href="./external-page.html">See persistent state on external page</a></p>
+       <p><a href="./external-page.html" target="_blank">See persistent state on external page</a></p>
       <h1>Visual IVR Prototype</h1>
       
       {/* Call status indicator */}
