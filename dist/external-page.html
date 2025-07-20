@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <h1>State from IVR</h1>
+    <p id="p"></p>
+    <script>
+      const ivrState = null
+      try {
+        const cachedState = localStorage.getItem('ivrState')
+        const state = JSON.parse(cachedState)
+        console.log(state)
+        const el = document.getElementById('p')
+        if (el)
+          el.textContent = cachedState
+      } catch(err) {
+        console.warn(`Error: ${err}`)
+      }
+    </script>
+  </body>
+</html>
